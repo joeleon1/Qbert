@@ -1,0 +1,631 @@
+﻿[2016.01.22-18.12.49:843][  0]Log file open, 01/22/16 13:12:49
+[2016.01.22-18.12.49:843][  0]LogInit:Display: Running engine for game: Qbert
+[2016.01.22-18.12.49:843][  0]LogInit:Display: RandInit(-909762239) SRandInit(-909762238).
+[2016.01.22-18.12.49:843][  0]LogTaskGraph: Started task graph with 4 named threads and 8 total threads.
+[2016.01.22-18.12.49:843][  0]LogStats: Stats thread started at 0.108094
+[2016.01.22-18.12.49:843][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.22-18.12.49:844][  0]LogInit: API Version: 2672455
+[2016.01.22-18.12.49:844][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.01.22-18.12.49:844][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.22-18.12.49:844][  0]LogInit: Build Configuration: Development
+[2016.01.22-18.12.49:844][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.01.22-18.12.49:844][  0]LogInit: Command line: 
+[2016.01.22-18.12.49:844][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.01.22-18.12.49:844][  0]LogInit: Rocket: 1
+[2016.01.22-18.12.49:854][  0]LogInit: Using libcurl 7.41.0
+[2016.01.22-18.12.49:854][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.22-18.12.49:854][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.22-18.12.49:854][  0]LogInit:  - other features:
+[2016.01.22-18.12.49:854][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.22-18.12.49:854][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.22-18.12.49:854][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.22-18.12.49:854][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.22-18.12.49:854][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.22-18.12.49:854][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.22-18.12.49:854][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.22-18.12.49:854][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.22-18.12.49:854][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.22-18.12.49:854][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.22-18.12.49:864][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.22-18.12.49:875][  0]LogInit: Object subsystem initialized
+[2016.01.22-18.12.49:881][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.22-18.12.49:881][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.22-18.12.49:893][  0]LogInit: Computer: SOD-SJH-506-25W
+[2016.01.22-18.12.49:893][  0]LogInit: User: graphic
+[2016.01.22-18.12.49:893][  0]LogInit: CPU Page size=4096, Cores=12
+[2016.01.22-18.12.49:893][  0]LogInit: High frequency timer resolution =2.597654 MHz
+[2016.01.22-18.12.49:893][  0]LogMemory: Memory total: Physical=24.0GB (24GB approx)
+[2016.01.22-18.12.49:893][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.22-18.12.49:893][  0]LogMemory: Process Physical Memory: 52.83 MB used, 52.83 MB peak
+[2016.01.22-18.12.49:893][  0]LogMemory: Process Virtual Memory: 57.52 MB used, 57.52 MB peak
+[2016.01.22-18.12.49:893][  0]LogMemory: Physical Memory: 4761.47 MB used, 24563.54 MB total
+[2016.01.22-18.12.49:893][  0]LogMemory: Virtual Memory: 357.32 MB used, 134217728.00 MB total
+[2016.01.22-18.12.49:930][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.01.22-18.12.50:964][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 5800 Series (Feature Level 11_0)
+[2016.01.22-18.12.50:964][  0]LogD3D11RHI: Adapter has 997MB of dedicated video memory, 0MB of dedicated system memory, and 12032MB of shared system memory, 2 output[s]
+[2016.01.22-18.12.50:966][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.22-18.12.50:966][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.01.22-18.12.50:966][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.22-18.12.50:970][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.22-18.12.50:970][  0]LogRHI: Texture pool is 698 MB (70% of 997 MB)
+[2016.01.22-18.12.50:977][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.01.22-18.12.50:994][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Intermediate/Shaders/WorkingDirectory/6972/).
+[2016.01.22-18.12.50:994][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Intermediate/Shaders/tmp/A73B3AAD4C396E28CC32A3809A9C959F/'.
+[2016.01.22-18.12.50:994][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.22-18.12.52:495][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.22-18.12.52:502][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.22-18.12.52:510][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.22-18.12.52:517][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.22-18.12.52:523][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.22-18.12.52:528][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.22-18.12.52:533][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.22-18.12.52:537][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.22-18.12.52:542][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.22-18.12.52:547][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.22-18.12.52:552][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.22-18.12.52:557][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.22-18.12.52:558][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.22-18.12.52:578][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.22-18.12.52:582][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.22-18.12.52:587][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.22-18.12.52:592][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.22-18.12.52:592][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.22-18.12.52:706][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.22-18.12.52:769][  0]LogDerivedDataCache: Loaded boot cache 0.06s 41MB C:/Users/graphic/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.22-18.12.52:769][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/graphic/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.01.22-18.12.52:769][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.22-18.12.52:769][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.22-18.12.52:769][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.22-18.12.52:769][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.22-18.12.52:941][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.22-18.12.52:954][  0]LogDerivedDataCache: Using Local data cache path C:/Users/graphic/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.22-18.12.53:247][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.22-18.12.53:251][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.22-18.12.53:433][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.22-18.12.53:433][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.22-18.12.53:838][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.22-18.12.55:081][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.22-18.12.55:209][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2016.01.22-18.12.55:437][  0]SourceControl: Info Source control is disabled
+[2016.01.22-18.12.55:447][  0]SourceControl: Info Source control is disabled
+[2016.01.22-18.12.55:462][  0]SourceControl: Info Source control is disabled
+[2016.01.22-18.12.55:476][  0]SourceControl: Info Source control is disabled
+[2016.01.22-18.12.55:691][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.22-18.12.55:801][  0]LogObj: 28365 objects as part of root set at end of initial load.
+[2016.01.22-18.12.55:801][  0]LogUObjectAllocator: 6040832 out of 0 bytes used by permanent object pool.
+[2016.01.22-18.12.55:880][  0]LogEngine: Initializing Engine...
+[2016.01.22-18.12.55:883][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.01.22-18.12.55:884][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.22-18.12.56:064][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.22-18.12.56:082][  0]LogInit: XAudio2 using 'Speakers (2- Display Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.22-18.12.56:104][  0]LogInit: FAudioDevice initialized.
+[2016.01.22-18.12.56:130][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/graphic/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.22-18.12.56:141][  0]LogInit: Texture streaming: Enabled
+[2016.01.22-18.12.56:149][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.22-18.12.56:149][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.22-18.12.56:149][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 70e2e4fb4af24504b50392ade3626bcc|537452aed23647e4b8302495d8ec3407|80fce630-2f0a-43e0-9f64-f95df5caff15
+[2016.01.22-18.12.56:149][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.22-18.12.56:182][  0]LogInit: Transaction tracking system initialized
+[2016.01.22-18.12.56:227][  0]BlueprintLog: New page: Editor Load
+[2016.01.22-18.12.57:309][  0]LocalizationService: Info Localization service is disabled
+[2016.01.22-18.12.57:598][  0]LogConsoleResponse:Display: 
+[2016.01.22-18.12.57:755][  0]LogFileCache: Scanning file cache for directory 'C:/Users/graphic/Documents/Unreal Projects/Qbert/Content/' took 0.01s
+[2016.01.22-18.12.57:755][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.22-18.12.57:850][  0]SourceControl: Info Source control is disabled
+[2016.01.22-18.12.57:852][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.9/FeaturePacks/StarterContent.upack)
+[2016.01.22-18.12.57:860][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.01.22-18.12.57:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2016.01.22-18.12.57:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2016.01.22-18.12.57:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2016.01.22-18.12.57:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2016.01.22-18.12.57:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2016.01.22-18.12.57:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2016.01.22-18.12.57:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2016.01.22-18.12.57:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2016.01.22-18.12.57:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2016.01.22-18.12.57:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2016.01.22-18.12.57:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2016.01.22-18.12.57:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Audio/Collapse01.uasset"
+[2016.01.22-18.12.57:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Audio/Collapse02.uasset"
+[2016.01.22-18.12.57:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2016.01.22-18.12.57:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Audio/Explosion01.uasset"
+[2016.01.22-18.12.57:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Audio/Explosion02.uasset"
+[2016.01.22-18.12.57:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2016.01.22-18.12.57:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Audio/Fire01.uasset"
+[2016.01.22-18.12.57:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2016.01.22-18.12.57:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2016.01.22-18.12.57:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2016.01.22-18.12.57:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Audio/Light01.uasset"
+[2016.01.22-18.12.57:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2016.01.22-18.12.57:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Audio/Light02.uasset"
+[2016.01.22-18.12.57:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2016.01.22-18.12.57:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Audio/Smoke01.uasset"
+[2016.01.22-18.12.57:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2016.01.22-18.12.57:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2016.01.22-18.12.57:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2016.01.22-18.12.57:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2016.01.22-18.12.57:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2016.01.22-18.12.58:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2016.01.22-18.12.58:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2016.01.22-18.12.58:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Audio/Steam01.uasset"
+[2016.01.22-18.12.58:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2016.01.22-18.12.58:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2016.01.22-18.12.58:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2016.01.22-18.12.58:077][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2016.01.22-18.12.58:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2016.01.22-18.12.58:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2016.01.22-18.12.58:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2016.01.22-18.12.58:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2016.01.22-18.12.58:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2016.01.22-18.12.58:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2016.01.22-18.12.58:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2016.01.22-18.12.58:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2016.01.22-18.12.58:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2016.01.22-18.12.58:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2016.01.22-18.12.58:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2016.01.22-18.12.58:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2016.01.22-18.12.58:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2016.01.22-18.12.58:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2016.01.22-18.12.58:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2016.01.22-18.12.58:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Maps/Minimal_Default.umap"
+[2016.01.22-18.12.58:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Maps/StarterMap.umap"
+[2016.01.22-18.12.58:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2016.01.22-18.12.58:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2016.01.22-18.12.58:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2016.01.22-18.12.58:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2016.01.22-18.12.58:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2016.01.22-18.12.58:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2016.01.22-18.12.58:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2016.01.22-18.12.58:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2016.01.22-18.12.58:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2016.01.22-18.12.58:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2016.01.22-18.12.58:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2016.01.22-18.12.58:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2016.01.22-18.12.58:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2016.01.22-18.12.58:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2016.01.22-18.12.58:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2016.01.22-18.12.58:377][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2016.01.22-18.12.58:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2016.01.22-18.12.58:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Glass.uasset"
+[2016.01.22-18.12.58:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2016.01.22-18.12.58:401][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2016.01.22-18.12.58:404][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2016.01.22-18.12.58:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2016.01.22-18.12.58:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2016.01.22-18.12.58:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2016.01.22-18.12.58:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2016.01.22-18.12.58:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2016.01.22-18.12.58:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2016.01.22-18.12.58:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2016.01.22-18.12.58:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2016.01.22-18.12.58:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2016.01.22-18.12.58:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2016.01.22-18.12.58:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2016.01.22-18.12.58:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2016.01.22-18.12.58:497][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2016.01.22-18.12.58:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2016.01.22-18.12.58:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2016.01.22-18.12.58:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2016.01.22-18.12.58:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2016.01.22-18.12.58:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2016.01.22-18.12.58:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2016.01.22-18.12.58:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2016.01.22-18.12.58:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2016.01.22-18.12.58:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2016.01.22-18.12.58:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2016.01.22-18.12.58:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Particles/P_Explosion.uasset"
+[2016.01.22-18.12.58:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Particles/P_Fire.uasset"
+[2016.01.22-18.12.58:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Particles/P_Smoke.uasset"
+[2016.01.22-18.12.58:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Particles/P_Sparks.uasset"
+[2016.01.22-18.12.58:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2016.01.22-18.12.58:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2016.01.22-18.12.58:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2016.01.22-18.12.58:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2016.01.22-18.12.58:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2016.01.22-18.12.58:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2016.01.22-18.12.58:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2016.01.22-18.12.58:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2016.01.22-18.12.58:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2016.01.22-18.12.58:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2016.01.22-18.12.58:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2016.01.22-18.12.58:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/MaterialSphere.uasset"
+[2016.01.22-18.12.58:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/SM_Bush.uasset"
+[2016.01.22-18.12.58:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/SM_Chair.uasset"
+[2016.01.22-18.12.58:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2016.01.22-18.12.58:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/SM_Couch.uasset"
+[2016.01.22-18.12.58:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/SM_Door.uasset"
+[2016.01.22-18.12.58:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2016.01.22-18.12.58:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2016.01.22-18.12.58:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2016.01.22-18.12.58:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2016.01.22-18.12.58:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2016.01.22-18.12.58:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2016.01.22-18.12.58:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2016.01.22-18.12.58:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/SM_Rock.uasset"
+[2016.01.22-18.12.58:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/SM_Shelf.uasset"
+[2016.01.22-18.12.58:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/SM_Stairs.uasset"
+[2016.01.22-18.12.58:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/SM_Statue.uasset"
+[2016.01.22-18.12.58:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/SM_TableRound.uasset"
+[2016.01.22-18.12.58:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2016.01.22-18.12.58:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2016.01.22-18.12.58:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2016.01.22-18.12.58:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2016.01.22-18.12.58:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2016.01.22-18.12.58:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2016.01.22-18.12.58:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2016.01.22-18.12.58:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2016.01.22-18.12.58:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2016.01.22-18.12.58:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2016.01.22-18.12.58:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2016.01.22-18.12.58:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2016.01.22-18.12.58:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2016.01.22-18.12.58:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2016.01.22-18.12.58:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2016.01.22-18.12.58:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2016.01.22-18.12.59:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2016.01.22-18.12.59:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2016.01.22-18.12.59:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2016.01.22-18.12.59:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2016.01.22-18.12.59:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2016.01.22-18.12.59:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2016.01.22-18.12.59:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2016.01.22-18.12.59:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2016.01.22-18.12.59:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2016.01.22-18.12.59:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2016.01.22-18.12.59:037][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2016.01.22-18.12.59:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2016.01.22-18.12.59:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2016.01.22-18.12.59:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2016.01.22-18.12.59:065][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2016.01.22-18.12.59:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2016.01.22-18.12.59:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2016.01.22-18.12.59:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2016.01.22-18.12.59:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2016.01.22-18.12.59:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2016.01.22-18.12.59:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2016.01.22-18.12.59:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2016.01.22-18.12.59:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2016.01.22-18.12.59:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2016.01.22-18.12.59:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2016.01.22-18.12.59:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2016.01.22-18.12.59:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2016.01.22-18.12.59:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2016.01.22-18.12.59:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2016.01.22-18.12.59:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2016.01.22-18.12.59:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2016.01.22-18.12.59:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2016.01.22-18.12.59:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2016.01.22-18.12.59:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2016.01.22-18.12.59:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2016.01.22-18.12.59:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2016.01.22-18.12.59:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2016.01.22-18.12.59:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2016.01.22-18.12.59:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2016.01.22-18.12.59:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2016.01.22-18.12.59:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2016.01.22-18.12.59:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2016.01.22-18.12.59:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2016.01.22-18.12.59:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2016.01.22-18.12.59:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2016.01.22-18.12.59:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2016.01.22-18.12.59:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2016.01.22-18.12.59:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2016.01.22-18.12.59:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2016.01.22-18.12.59:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2016.01.22-18.12.59:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2016.01.22-18.12.59:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2016.01.22-18.12.59:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2016.01.22-18.12.59:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2016.01.22-18.12.59:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2016.01.22-18.12.59:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Door_M.uasset"
+[2016.01.22-18.12.59:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Door_N.uasset"
+[2016.01.22-18.12.59:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2016.01.22-18.12.59:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2016.01.22-18.12.59:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2016.01.22-18.13.00:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2016.01.22-18.13.00:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2016.01.22-18.13.00:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2016.01.22-18.13.00:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2016.01.22-18.13.00:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2016.01.22-18.13.00:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2016.01.22-18.13.00:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2016.01.22-18.13.00:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2016.01.22-18.13.00:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2016.01.22-18.13.00:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2016.01.22-18.13.00:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2016.01.22-18.13.00:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2016.01.22-18.13.00:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2016.01.22-18.13.00:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2016.01.22-18.13.00:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2016.01.22-18.13.00:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2016.01.22-18.13.00:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2016.01.22-18.13.00:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2016.01.22-18.13.00:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2016.01.22-18.13.00:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2016.01.22-18.13.00:291][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2016.01.22-18.13.00:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2016.01.22-18.13.00:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2016.01.22-18.13.00:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2016.01.22-18.13.00:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2016.01.22-18.13.00:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2016.01.22-18.13.00:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2016.01.22-18.13.00:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2016.01.22-18.13.00:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2016.01.22-18.13.00:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2016.01.22-18.13.00:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2016.01.22-18.13.00:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2016.01.22-18.13.00:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2016.01.22-18.13.00:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2016.01.22-18.13.00:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2016.01.22-18.13.00:603][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2016.01.22-18.13.00:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2016.01.22-18.13.00:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2016.01.22-18.13.00:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2016.01.22-18.13.00:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2016.01.22-18.13.00:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2016.01.22-18.13.01:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2016.01.22-18.13.01:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2016.01.22-18.13.01:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2016.01.22-18.13.01:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2016.01.22-18.13.01:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2016.01.22-18.13.01:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2016.01.22-18.13.01:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2016.01.22-18.13.01:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Water_M.uasset"
+[2016.01.22-18.13.01:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Water_N.uasset"
+[2016.01.22-18.13.01:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2016.01.22-18.13.01:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2016.01.22-18.13.01:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2016.01.22-18.13.01:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2016.01.22-18.13.01:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2016.01.22-18.13.01:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2016.01.22-18.13.01:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2016.01.22-18.13.01:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2016.01.22-18.13.01:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2016.01.22-18.13.01:550][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2016.01.22-18.13.02:019][  0]LogSavePackage: Save=17.248640ms
+[2016.01.22-18.13.02:020][  0]LogSavePackage: Moving '../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Saved/Floor_400x4000B5562E24F1D4778787C7BA15B81776C.tmp' to '../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2016.01.22-18.13.02:024][  0]LogSavePackage: Total save time: 26.944313ms
+[2016.01.22-18.13.02:024][  0]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2016.01.22-18.13.02:024][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2016.01.22-18.13.02:028][  0]Cmd: MAP LOAD FILE="../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.22-18.13.02:028][  0]LightingResults: New page: Lighting Build
+[2016.01.22-18.13.02:033][  0]MapCheck: New page: Map Check
+[2016.01.22-18.13.02:033][  0]LightingResults: New page: Lighting Build
+[2016.01.22-18.13.02:047][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000006F6CA5C60
+[2016.01.22-18.13.02:604][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.01.22-18.13.02:616][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.22-18.13.02:618][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.22-18.13.02:692][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.479ms to complete.
+[2016.01.22-18.13.02:692][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.664
+[2016.01.22-18.13.03:034][  0]LogCollectionManager: Loaded 0 collections in 0.002715 seconds
+[2016.01.22-18.13.13:849][  0]LogFileCache: Scanning file cache for directory 'C:/Users/graphic/Documents/Unreal Projects/Qbert/Saved/Collections/' took 0.01s
+[2016.01.22-18.13.13:849][  0]LogFileCache: Scanning file cache for directory 'C:/Users/graphic/Documents/Unreal Projects/Qbert/Content/Developers/graphic/Collections/' took 0.01s
+[2016.01.22-18.13.13:849][  0]LogFileCache: Scanning file cache for directory 'C:/Users/graphic/Documents/Unreal Projects/Qbert/Content/Collections/' took 0.01s
+[2016.01.22-18.13.13:849][  0]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 1868 classes and 335 folders.
+[2016.01.22-18.13.13:860][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2016.01.22-18.13.13:871][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2016.01.22-18.13.13:933][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2016.01.22-18.13.14:167][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2016.01.22-18.13.14:205][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.22-18.13.14:358][  0]LogLoad: Full Startup: 26.99 seconds (BP compile: 0.06 seconds)
+[2016.01.22-18.13.15:100][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.22-18.13.15:292][  0]LogRenderer: Reallocating scene render targets to support 1616x816 (Frame:3).
+[2016.01.22-18.13.16:844][  5]LogAssetRegistry: Asset discovery search completed in 21.6454 seconds
+[2016.01.22-18.13.16:844][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.01.22-18.13.16:844][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2016.01.22-18.29.24:334][375]LogSavePackage: Save=128.106354ms
+[2016.01.22-18.29.24:334][375]LogSavePackage: Moving '../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Saved/Minimal_Default356D1BAE411FFB426C42108634DF5E60.tmp' to '../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.01.22-18.29.24:336][375]LogSavePackage: Total save time: 137.644581ms
+[2016.01.22-18.29.24:336][375]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/graphic/Documents/Unreal Projects/Qbert/Content/StarterContent/Maps/Minimal_Default.umap
+[2016.01.22-18.29.29:615][660]Cmd: QUIT_EDITOR
+[2016.01.22-18.29.29:802][660]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.22-18.29.29:802][660]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.22-18.29.29:984][660]LogExit: Preparing to exit.
+[2016.01.22-18.29.30:250][660]LogExit: Editor shut down
+[2016.01.22-18.29.30:250][660]LogExit: Transaction tracking system shut down
+[2016.01.22-18.29.30:251][660]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000006F5F154E0
+[2016.01.22-18.29.30:252][660]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000006F58E9F80
+[2016.01.22-18.29.30:253][660]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000006FFBA7880
+[2016.01.22-18.29.30:432][660]LogExit: Object subsystem successfully closed.
+[2016.01.22-18.29.30:444][660]LogD3D11RHI: Shutdown
+[2016.01.22-18.29.30:444][660]LogD3D11RHI: CleanupD3DDevice
+[2016.01.22-18.29.30:520][660]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.22-18.29.30:551][660]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.01.22-18.29.30:551][660]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.01.22-18.29.30:551][660]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.01.22-18.29.30:551][660]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.01.22-18.29.30:551][660]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.01.22-18.29.30:553][660]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.01.22-18.29.30:553][660]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.01.22-18.29.30:554][660]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.01.22-18.29.30:554][660]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.01.22-18.29.30:554][660]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.01.22-18.29.30:554][660]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.01.22-18.29.30:554][660]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.01.22-18.29.30:554][660]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.01.22-18.29.30:554][660]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.01.22-18.29.30:554][660]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.01.22-18.29.30:554][660]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.01.22-18.29.30:554][660]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.01.22-18.29.30:554][660]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.01.22-18.29.30:554][660]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.01.22-18.29.30:554][660]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.01.22-18.29.30:554][660]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.01.22-18.29.30:554][660]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.01.22-18.29.30:554][660]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.01.22-18.29.30:554][660]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.01.22-18.29.30:554][660]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.01.22-18.29.30:554][660]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.01.22-18.29.31:436][660]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.01.22-18.29.31:436][660]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.01.22-18.29.31:436][660]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.01.22-18.29.31:436][660]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.01.22-18.29.31:436][660]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.01.22-18.29.31:436][660]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.01.22-18.29.31:436][660]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.01.22-18.29.31:436][660]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.01.22-18.29.31:436][660]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.01.22-18.29.31:436][660]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.01.22-18.29.31:436][660]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.01.22-18.29.31:436][660]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.01.22-18.29.31:436][660]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.01.22-18.29.31:436][660]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.01.22-18.29.31:436][660]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.01.22-18.29.31:436][660]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.01.22-18.29.31:436][660]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.01.22-18.29.31:436][660]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.01.22-18.29.31:436][660]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.01.22-18.29.31:437][660]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.01.22-18.29.31:437][660]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.01.22-18.29.31:437][660]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.01.22-18.29.31:437][660]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.01.22-18.29.31:437][660]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.01.22-18.29.31:437][660]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.01.22-18.29.31:437][660]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.01.22-18.29.31:437][660]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.01.22-18.29.31:437][660]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.01.22-18.29.31:437][660]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.01.22-18.29.31:437][660]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.01.22-18.29.31:437][660]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.01.22-18.29.31:437][660]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.01.22-18.29.31:437][660]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.01.22-18.29.31:437][660]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.01.22-18.29.31:437][660]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.01.22-18.29.31:437][660]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.01.22-18.29.31:437][660]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.01.22-18.29.31:437][660]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.01.22-18.29.31:437][660]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.01.22-18.29.31:438][660]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.01.22-18.29.31:438][660]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.01.22-18.29.31:438][660]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.01.22-18.29.31:438][660]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.01.22-18.29.31:438][660]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.01.22-18.29.31:438][660]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.01.22-18.29.31:438][660]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.01.22-18.29.31:438][660]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.01.22-18.29.31:438][660]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.01.22-18.29.31:438][660]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.01.22-18.29.31:438][660]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.01.22-18.29.31:620][660]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.01.22-18.29.31:620][660]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.01.22-18.29.31:620][660]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.01.22-18.29.31:620][660]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.01.22-18.29.31:620][660]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.01.22-18.29.31:620][660]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2016.01.22-18.29.31:620][660]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2016.01.22-18.29.31:620][660]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.01.22-18.29.31:637][660]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.01.22-18.29.31:637][660]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.01.22-18.29.31:637][660]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.01.22-18.29.31:637][660]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.01.22-18.29.31:637][660]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.01.22-18.29.31:637][660]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.01.22-18.29.31:637][660]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.01.22-18.29.31:637][660]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.01.22-18.29.31:637][660]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.01.22-18.29.31:637][660]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.01.22-18.29.31:637][660]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.01.22-18.29.31:637][660]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.01.22-18.29.31:637][660]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.01.22-18.29.31:637][660]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.01.22-18.29.31:637][660]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.01.22-18.29.31:637][660]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.01.22-18.29.31:637][660]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.01.22-18.29.31:637][660]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.01.22-18.29.31:637][660]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.01.22-18.29.31:637][660]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.01.22-18.29.31:637][660]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.01.22-18.29.31:637][660]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.01.22-18.29.31:638][660]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.01.22-18.29.31:638][660]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.01.22-18.29.31:639][660]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.01.22-18.29.31:640][660]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.01.22-18.29.31:756][660]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.01.22-18.29.31:757][660]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.01.22-18.29.31:757][660]LogModuleManager: Shutting down and abandoning module Qbert (86)
+[2016.01.22-18.29.31:757][660]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.01.22-18.29.31:858][660]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.01.22-18.29.31:858][660]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.01.22-18.29.31:858][660]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.01.22-18.29.31:862][660]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.01.22-18.29.31:862][660]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.01.22-18.29.31:862][660]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.01.22-18.29.31:862][660]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.01.22-18.29.31:862][660]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.01.22-18.29.31:862][660]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.01.22-18.29.31:862][660]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.01.22-18.29.31:862][660]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.01.22-18.29.31:862][660]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.01.22-18.29.31:862][660]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.01.22-18.29.31:862][660]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.01.22-18.29.31:862][660]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.01.22-18.29.31:862][660]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.01.22-18.29.31:862][660]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.01.22-18.29.31:862][660]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.01.22-18.29.31:862][660]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.01.22-18.29.31:865][660]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.01.22-18.29.31:865][660]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.01.22-18.29.31:866][660]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.01.22-18.29.31:866][660]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.01.22-18.29.31:866][660]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.01.22-18.29.31:866][660]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.01.22-18.29.31:866][660]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.01.22-18.29.31:866][660]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.01.22-18.29.31:866][660]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.01.22-18.29.31:866][660]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.01.22-18.29.31:866][660]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.01.22-18.29.31:908][660]LogDerivedDataCache: Shutdown
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.01.22-18.29.31:908][660]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.01.22-18.29.33:412][660]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.01.22-18.29.33:412][660]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.22-18.29.33:412][660]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.22-18.29.33:412][660]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.22-18.29.33:412][660]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.22-18.29.33:412][660]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.22-18.29.33:413][660]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.22-18.29.33:413][660]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.22-18.29.33:413][660]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.22-18.29.33:413][660]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.22-18.29.33:413][660]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.22-18.29.33:413][660]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.22-18.29.33:413][660]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.22-18.29.33:413][660]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.22-18.29.33:413][660]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.22-18.29.33:413][660]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.22-18.29.33:414][660]LogExit: Exiting.
+[2016.01.22-18.29.33:434][660]Log file closed, 01/22/16 13:29:33
