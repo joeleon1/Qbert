@@ -460,8 +460,8 @@ C:\Program Files\Epic Games\4.9\Engine\Plugins\ScriptGeneratorPlugin\Source\Scri
 C:\Program Files\Epic Games\4.9\Engine\Plugins\ScriptPlugin\Source\ScriptEditorPlugin\ScriptEditorPlugin.Build.cs
 C:\Program Files\Epic Games\4.9\Engine\Plugins\ScriptPlugin\Source\ScriptPlugin\ScriptPlugin.Build.cs
 C:\Program Files\Epic Games\4.9\Engine\Plugins\Slate\SlateRemote\Source\SlateRemote\SlateRemote.Build.cs
-C:\Users\graphic\Documents\Unreal Projects\Qbert\Source\Qbert\Qbert.Build.cs
+C:\Users\graphic\Documents\GitHub\Qbert\Qbert Unreal\Source\Qbert\Qbert.Build.cs
 C:\Program Files\Epic Games\4.9\Engine\Source\UE4Editor.Target.cs
 C:\Program Files\Epic Games\4.9\Engine\Source\UE4Game.Target.cs
-C:\Users\graphic\Documents\Unreal Projects\Qbert\Source\Qbert.Target.cs
-C:\Users\graphic\Documents\Unreal Projects\Qbert\Source\QbertEditor.Target.cs
+C:\Users\graphic\Documents\GitHub\Qbert\Qbert Unreal\Source\Qbert.Target.cs
+C:\Users\graphic\Documents\GitHub\Qbert\Qbert Unreal\Source\QbertEditor.Target.cs

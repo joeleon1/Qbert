@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define QBERT_QbertGameMode_generated_h
 
-#define Qbert_Source_Qbert_QbertGameMode_h_14_RPC_WRAPPERS
-#define Qbert_Source_Qbert_QbertGameMode_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define Qbert_Source_Qbert_QbertGameMode_h_14_INCLASS_NO_PURE_DECLS \
+#define Qbert_Unreal_Source_Qbert_QbertGameMode_h_14_RPC_WRAPPERS
+#define Qbert_Unreal_Source_Qbert_QbertGameMode_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define Qbert_Unreal_Source_Qbert_QbertGameMode_h_14_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesAQbertGameMode(); \
 	friend QBERT_API class UClass* Z_Construct_UClass_AQbertGameMode(); \
@@ -26,7 +26,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	virtual UObject* _getUObject() const override { return const_cast<AQbertGameMode*>(this); }
 
 
-#define Qbert_Source_Qbert_QbertGameMode_h_14_INCLASS \
+#define Qbert_Unreal_Source_Qbert_QbertGameMode_h_14_INCLASS \
 	private: \
 	static void StaticRegisterNativesAQbertGameMode(); \
 	friend QBERT_API class UClass* Z_Construct_UClass_AQbertGameMode(); \
@@ -37,7 +37,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	virtual UObject* _getUObject() const override { return const_cast<AQbertGameMode*>(this); }
 
 
-#define Qbert_Source_Qbert_QbertGameMode_h_14_STANDARD_CONSTRUCTORS \
+#define Qbert_Unreal_Source_Qbert_QbertGameMode_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AQbertGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AQbertGameMode) \
@@ -49,7 +49,7 @@ private: \
 public:
 
 
-#define Qbert_Source_Qbert_QbertGameMode_h_14_ENHANCED_CONSTRUCTORS \
+#define Qbert_Unreal_Source_Qbert_QbertGameMode_h_14_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AQbertGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -61,29 +61,29 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AQbertGameMode); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AQbertGameMode)
 
 
-#define Qbert_Source_Qbert_QbertGameMode_h_11_PROLOG
-#define Qbert_Source_Qbert_QbertGameMode_h_14_GENERATED_BODY_LEGACY \
+#define Qbert_Unreal_Source_Qbert_QbertGameMode_h_11_PROLOG
+#define Qbert_Unreal_Source_Qbert_QbertGameMode_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Qbert_Source_Qbert_QbertGameMode_h_14_RPC_WRAPPERS \
-	Qbert_Source_Qbert_QbertGameMode_h_14_INCLASS \
-	Qbert_Source_Qbert_QbertGameMode_h_14_STANDARD_CONSTRUCTORS \
+	Qbert_Unreal_Source_Qbert_QbertGameMode_h_14_RPC_WRAPPERS \
+	Qbert_Unreal_Source_Qbert_QbertGameMode_h_14_INCLASS \
+	Qbert_Unreal_Source_Qbert_QbertGameMode_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Qbert_Source_Qbert_QbertGameMode_h_14_GENERATED_BODY \
+#define Qbert_Unreal_Source_Qbert_QbertGameMode_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Qbert_Source_Qbert_QbertGameMode_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	Qbert_Source_Qbert_QbertGameMode_h_14_INCLASS_NO_PURE_DECLS \
-	Qbert_Source_Qbert_QbertGameMode_h_14_ENHANCED_CONSTRUCTORS \
+	Qbert_Unreal_Source_Qbert_QbertGameMode_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	Qbert_Unreal_Source_Qbert_QbertGameMode_h_14_INCLASS_NO_PURE_DECLS \
+	Qbert_Unreal_Source_Qbert_QbertGameMode_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Qbert_Source_Qbert_QbertGameMode_h
+#define CURRENT_FILE_ID Qbert_Unreal_Source_Qbert_QbertGameMode_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

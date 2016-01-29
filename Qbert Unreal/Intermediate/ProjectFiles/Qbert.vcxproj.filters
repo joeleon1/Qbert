@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Qbert.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{9C234C2A-12F8-4770-A19D-54D549320729}</UniqueIdentifier>
+			<UniqueIdentifier>{348EBA64-62F9-4823-BE3C-9A75953C63A1}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Qbert.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{D5D1B219-036A-491E-AAA9-0A6BB28C86CE}</UniqueIdentifier>
+			<UniqueIdentifier>{A7C29F57-C449-486C-936F-6C3C31AF8B66}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,7 +25,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\Qbert">
-			<UniqueIdentifier>{36948310-5A33-4187-989A-4EA002B60E07}</UniqueIdentifier>
+			<UniqueIdentifier>{EC5D871F-1BBF-4567-AA21-CBB358891600}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Qbert\Qbert.Build.cs">
 			<Filter>Source\Qbert</Filter>
@@ -40,6 +40,12 @@
 			<Filter>Source\Qbert</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\Qbert\QbertGameMode.h">
+			<Filter>Source\Qbert</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Qbert\Traverser.cpp">
+			<Filter>Source\Qbert</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Qbert\Traverser.h">
 			<Filter>Source\Qbert</Filter>
 		</ClInclude >
 	</ItemGroup>

@@ -13,12 +13,19 @@ void EmptyLinkFunctionForGeneratedCodeQbert() {}
 	{
 	}
 	IMPLEMENT_CLASS(AQbertGameMode, 2159165753);
+	void ATraverser::StaticRegisterNativesATraverser()
+	{
+	}
+	IMPLEMENT_CLASS(ATraverser, 2918107899);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_AGameMode();
+	ENGINE_API class UClass* Z_Construct_UClass_AActor();
 
 	QBERT_API class UClass* Z_Construct_UClass_AQbertGameMode_NoRegister();
 	QBERT_API class UClass* Z_Construct_UClass_AQbertGameMode();
+	QBERT_API class UClass* Z_Construct_UClass_ATraverser_NoRegister();
+	QBERT_API class UClass* Z_Construct_UClass_ATraverser();
 	QBERT_API class UPackage* Z_Construct_UPackage_Qbert();
 	UClass* Z_Construct_UClass_AQbertGameMode_NoRegister()
 	{
@@ -54,6 +61,37 @@ void EmptyLinkFunctionForGeneratedCodeQbert() {}
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AQbertGameMode(Z_Construct_UClass_AQbertGameMode, TEXT("AQbertGameMode"));
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AQbertGameMode);
+	UClass* Z_Construct_UClass_ATraverser_NoRegister()
+	{
+		return ATraverser::StaticClass();
+	}
+	UClass* Z_Construct_UClass_ATraverser()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_AActor();
+			Z_Construct_UPackage_Qbert();
+			OuterClass = ATraverser::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("Traverser.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("Traverser.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_ATraverser(Z_Construct_UClass_ATraverser, TEXT("ATraverser"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(ATraverser);
 	UPackage* Z_Construct_UPackage_Qbert()
 	{
 		static UPackage* ReturnPackage = NULL;
@@ -62,8 +100,8 @@ void EmptyLinkFunctionForGeneratedCodeQbert() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/Qbert")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0xC6E288D5;
-			Guid.B = 0xEC3FBE55;
+			Guid.A = 0x2F952753;
+			Guid.B = 0x946B20AA;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);
